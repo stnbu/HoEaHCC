@@ -1,0 +1,28 @@
+#+Title: HoEaHCC, notes on
+
+* Nomenclature
+
+** Group
+
+- /Closure/ If =x= and =y= are two elements in a group, =G=, then x.y will also come into =G=.
+- /Associativity/ If =x=, =y= and =z= are in group =G=, then =x . (y . z) = (x . y) . z=
+- /Invertibility/ For every =x= in =G=, there exists some =y= in =G=, such that; =x . y = y . x=
+- /Identity/ For any element =x= in =G=, there exists an element =I= in =G=, such that: =x . I = I . x=, where =I= is called the identity element of =G=.
+
+** Abelian Group
+
+- Group with commutativity.
+
+** Field
+
+- "[A] field is a set on which addition, subtraction, multiplication, and division are defined and behave as the corresponding operations on rational and real numbers do."
+
+** Ring
+
+- "[R]ings are algebraic structures that generalize fields: multiplication need not be commutative and multiplicative inverses need not exist."
+
+* What The Hell Is This
+
+- =G = (Z/nZ)∗=
+- On the other hand for elliptic curves no subexponential algorithm is known for the DLP :: Is this the definition of an "elliptic curve"? or a property?
+- "Jacobians of curves of small genus"
