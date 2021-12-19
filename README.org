@@ -4,10 +4,10 @@
 
 ** Group
 
-- /Closure/ If =x= and =y= are two elements in a group, =G=, then x.y will also come into =G=.
-- /Associativity/ If =x=, =y= and =z= are in group =G=, then =x . (y . z) = (x . y) . z=
-- /Invertibility/ For every =x= in =G=, there exists some =y= in =G=, such that; =x . y = y . x=
-- /Identity/ For any element =x= in =G=, there exists an element =I= in =G=, such that: =x . I = I . x=, where =I= is called the identity element of =G=.
+- /Closure/ :: If =x= and =y= are two elements in a group, =G=, then x.y will also come into =G=.
+- /Associativity/ :: If =x=, =y= and =z= are in group =G=, then =x . (y . z) = (x . y) . z=
+- /Invertibility/ :: For every =x= in =G=, there exists some =y= in =G=, such that; =x . y = y . x=
+- /Identity/ :: For any element =x= in =G=, there exists an element =I= in =G=, such that: =x . I = I . x=, where =I= is called the identity element of =G=.
 
 ** Abelian Group
 
@@ -26,3 +26,4 @@
 - =G = (Z/nZ)∗=
 - On the other hand for elliptic curves no subexponential algorithm is known for the DLP :: Is this the definition of an "elliptic curve"? or a property?
 - "Jacobians of curves of small genus"
+- abstract cohomology theories and classical results from explicit class field theory are used for efficient implementations to count points on hyperelliptic curves :: /only/ hyperelliptic curves?
