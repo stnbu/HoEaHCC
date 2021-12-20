@@ -1,3 +1,4 @@
+
 #+Title: HoEaHCC, notes on
 
 * Nomenclature
@@ -20,6 +21,21 @@
 ** Ring
 
 - "[R]ings are algebraic structures that generalize fields: multiplication need not be commutative and multiplicative inverses need not exist."
+
+** Discrete logarithm [problem]
+
+"[I]n any group =G=, powers =b**k= can be defined for all integers =k=, and the discrete logarithm =logba= (heh) is an integer =k= such that =b**k = a="
+
+The **problem** is that it's hard to find a =k= given only =b= and =a=.
+
+In the book's notation we want a =k= such that =[k]P = Q=, where =P= is the generator (a point chosen on the curve that forms a group). =P= is fundamental to the chosen curve's finite field. =Q= is your "public key" and =k= is your "private key" (probably wrong <---)
+
+** Foo
+
+- decision problem :: is statement about input true or false. "Is this number prime?"
+- computation problem :: do a computation for me. "What is the result of one divided by zero?"
+
+"One can formulate a computation problem from a decision problem." Really?
 
 * What The Hell Is This
 
