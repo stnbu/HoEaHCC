@@ -17,6 +17,14 @@ Best enjoyed [[https://unintuitive.org/HoEaHCC/README.html][here]]! The repo is 
 - The inverse of an element x, denoted by $x^{−1}$, is unique
 - If abelian, the inverse of x is usually denoted by −x
 
+** Subgroup
+
+Let G be a group. A subgroup =H= of =G= is a subset of =G= containing the unit element =e= and such that
+- forall =x,y ∈ H= one has xy ∈ H
+- if =x ∈ H= then also $x^{−1} ∈ H$.
+
+tl;dr -- A subgroup is exactly what it sounds like: A group formed by some elements of a larger group.
+
 ** Abelian Group
 
 - Group with commutativity.
