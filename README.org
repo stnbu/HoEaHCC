@@ -43,3 +43,5 @@ In the book's notation we want a =k= such that =[k]P = Q=, where =P= is the gene
 - On the other hand for elliptic curves no subexponential algorithm is known for the DLP :: Is this the definition of an "elliptic curve"? or a property?
 - "Jacobians of curves of small genus"
 - abstract cohomology theories and classical results from explicit class field theory are used for efficient implementations to count points on hyperelliptic curves :: /only/ hyperelliptic curves?
+- Are there "points outside of a (EC) group that lead you /into/ a group?" -- the more I learn the more I wonder if the question makes sense. `[k]P` is in the group /by definition/. So in that way there is no "starting outside the group". But what about starting with a different generator? can [j]Q = [k]K for some /[j]Q/ that is outside of the group? err, grumble.
+- "What's with this affine/projection stuff on P271?"
