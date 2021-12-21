@@ -9,6 +9,8 @@
 - /Invertibility/ :: For every =x= in =G=, there exists some =y= in =G=, such that; =x . y = y . x=
 - /Identity/ :: For any element =x= in =G=, there exists an element =I= in =G=, such that: =x . I = I . x=, where =I= is called the identity element of =G=.
 
+*** and also...
+
 - The unit of a group is unique [wait, are unit and identity always interchangable...?]
 - The inverse of an element x, denoted by $x^{−1}$, is unique
 - If abelian, the inverse of x is usually denoted by −x
