@@ -19,7 +19,7 @@ Best enjoyed [[https://unintuitive.org/HoEaHCC/README.html][here]]! The repo is 
 
 ** Subgroup
 
-Let G be a group. A subgroup =H= of =G= is a subset of =G= containing the unit element =e= and such that
+Let =G= be a group. A subgroup =H= of =G= is a subset of =G= containing the unit element =e= and such that
 - forall =x,y ∈ H= one has xy ∈ H
 - if =x ∈ H= then also $x^{−1} ∈ H$.
 
