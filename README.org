@@ -42,7 +42,7 @@ In the book's notation we want a =k= such that =[k]P = Q=, where =P= is the gene
 - decision problem :: is statement about input true or false. "Is this number prime?"
 - computation problem :: do a computation for me. "What is the result of one divided by zero?"
 - associative :: =(xy)z = x(yz)=
-- commutitive :: =xy = yx=
+- commutative :: =xy = yx=
 
 "One can formulate a computation problem from a decision problem." Really?
 
