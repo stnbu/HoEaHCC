@@ -20,6 +20,7 @@ Axiomatical corrolaries and properties that groups can have...
 - The inverse of an element x, denoted by $x^{−1}$, is unique
 - If abelian, the inverse of x is usually denoted by −x
 - A group $G$ is cyclic if there is $x ∈ G$ such that $\langle x \rangle = G$
+- Every subgroup of a cyclic group G is also cyclic.
 
 *** Subgroup
 
