@@ -75,12 +75,14 @@ An equivalence class for this relation is denoted by $xH = \{xh | h ∈ H\}$, re
 
 *** Isomorphism
 
+#+BEGIN_LaTeX
 Given two groups {\displaystyle (G,*)}(G,∗) and {\displaystyle (H,\odot ),}(H,⊙), a group isomorphism from {\displaystyle (G,*)}(G,∗) to {\displaystyle (H,\odot )}(H,⊙) is a bijective group homomorphism from {\displaystyle G}G to {\displaystyle H.}H. Spelled out, this means that a group isomorphism is a bijective function {\displaystyle f:G\to H}f:G→H such that for all {\displaystyle u}u and {\displaystyle v}v in {\displaystyle G}G it holds that
 
 {\displaystyle f(u*v)=f(u)\odot f(v).}f(u∗v)=f(u)⊙f(v).
 The two groups {\displaystyle (G,*)}(G,∗) and {\displaystyle (H,\odot )}(H,⊙) are isomorphic if there exists an isomorphism from one to the other. This is written:
 
 {\displaystyle (G,*)\cong (H,\odot )}(G,∗)≅(H,⊙)
+#+END_LaTeX
 
 ** Short Definitions
 
