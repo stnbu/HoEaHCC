@@ -80,7 +80,9 @@ An equivalence class for this relation is denoted by $xH = \{xh | h ∈ H\}$, re
 - associative :: $(xy)z = x(yz)$
 - commutative :: $xy = yx$
 - image :: For a subset $R$ of $S$ the /image/ of $f(R)$ is the set of all $f(r)$ where $r ∈ R$.
-- $\mathbb{Z}/n\mathbb{Z}$ :: As best "we" can tell: This is "integers that are multiples of $n$". If $n$ is five, then it means $[0, 5, 10, ...]$
+- $\mathbb{Z}/n\mathbb{Z}$ ::
+  a. As best "we" can tell: This is "integers that are multiples of $n$". If $n$ is five, then it means $[0, 5, 10, ...]$
+  a. Or is it "the cyclic group of order $n$"? aka $[0, 1, 2, ...n-1]$ ...?
 - $\langle x \rangle$ :: the set $\{x^n | n ∈ \mathbb{Z}\}$
 
 "One can formulate a computation problem from a decision problem." Really?
@@ -106,3 +108,4 @@ An equivalence class for this relation is denoted by $xH = \{xh | h ∈ H\}$, re
 - https://trustica.cz/category/ecc/
 - https://trustica.cz/2018/04/26/elliptic-curves-prime-order-curves/ [if this isn't an outlier from trustica ecc blogs, remove it]
 - https://www.youtube.com/watch?v=mFVKuFZ29Fc <-- Gobsmakaroo!
+- [[https://www.youtube.com/watch?v=RnqwFpyqJFw&list=PL8yHsr3EFj51pjBvvCPipgAT3SYpIiIsJ][Group Theory 101]]
