@@ -72,3 +72,4 @@ In the book's notation we want a =k= such that =[k]P = Q=, where =P= is the gene
 - https://cr.yp.to/ecdh/curve25519-20060209.pdf
 - https://jeremykun.com/2014/03/13/programming-with-finite-fields/
 - https://github.com/stnbu/finite-fields
+- https://www.johndcook.com/blog/2019/02/19/addition-on-curve1174/
