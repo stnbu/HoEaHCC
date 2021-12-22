@@ -38,7 +38,7 @@ tl;dr -- A subgroup is exactly what it sounds like: A group formed by some eleme
 
 ** Discrete logarithm [problem]
 
-"[I]n any group $G$, powers $b**k$ can be defined for all integers $k$, and the discrete logarithm $log_b^a$ is an integer $k$ such that $b**k = a$"
+"[I]n any group $G$, powers $b**k$ can be defined for all integers $k$, and the discrete logarithm $log_ba$ is an integer $k$ such that $b**k = a$"
 
 The **problem** is that it's hard to find a $k$ given only $b$ and $a$.
 
