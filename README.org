@@ -73,5 +73,6 @@ In the book's notation we want a =k= such that =[k]P = Q=, where =P= is the gene
 - https://jeremykun.com/2014/03/13/programming-with-finite-fields/
 - https://github.com/stnbu/finite-fields
 - https://www.johndcook.com/blog/2019/02/19/addition-on-curve1174/
-- https://trustica.cz/2018/04/26/elliptic-curves-prime-order-curves/
+- https://trustica.cz/category/ecc/
+- https://trustica.cz/2018/04/26/elliptic-curves-prime-order-curves/ [if this isn't an outlier from trustica ecc blogs, remove it]
 - https://www.youtube.com/watch?v=mFVKuFZ29Fc <-- Gobsmakaroo!
