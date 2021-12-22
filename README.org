@@ -37,8 +37,6 @@ Axiomatical corrolaries and properties that groups can have...
 
 **** Equivalence classes and left/right cosets
 
-hi mom
-
 NOTE: The book says: 
 
 #+CAPTION: Indecipherable book excerpt 1.0
