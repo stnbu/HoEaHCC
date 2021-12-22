@@ -1,5 +1,8 @@
 ## Written by no one in particular. Just never you mind about that.
 
+# pip install git+https://github.com/stnbu/finite-fields.git
+# pip install svgwrite
+
 from j2kunff.modp import IntegersModP
 
 def discriminant (F, a1, a2, a3, a4, a6):
