@@ -47,13 +47,6 @@ In the book's notation we want a =k= such that =[k]P = Q=, where =P= is the gene
 
 ** Foo
 
-
-# $\mathbb{R}$ is the set of real numbers.
-
-$$\mathbb{N} \subset \mathbb{Z} \subset \mathbb{D} \subset \mathbb{Q} \subset \mathbb{R} \subset \mathbb{C}$$
-$$\mathbf{N} \subset \mathbf{Z} \subset \mathbf{D} \subset \mathbf{Q} \subset \mathbf{R} \subset \mathbf{C}$$
-
-
 - decision problem :: is statement about input true or false. "Is this number prime?"
 - computation problem :: do a computation for me. "What is the result of one divided by zero?"
 - associative :: =(xy)z = x(yz)=
