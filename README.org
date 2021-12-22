@@ -31,7 +31,9 @@ Let $G$ be a group. A subgroup $H$ of $G$ is a subset of $G$ containing the unit
 
  tl;dr -- A subgroup is exactly what it sounds like: A group formed by some elements of a larger group.
 
-- [[https://byjus.com/maths/lagrange-theorem/][Lagrange Theorem]] :: Let $G$ be a finite group and $H$ be a subgroup of $G$. Then the order of $H$ divides the order of $G$. As a consequence, the order of every element also divides the order of $G$.
+[[https://byjus.com/maths/lagrange-theorem/][Lagrange Theorem]]
+
+Let $G$ be a finite group and $H$ be a subgroup of $G$. Then the order of $H$ divides the order of $G$. As a consequence, the order of every element also divides the order of $G$.
 
 **** Abelian Group
 
