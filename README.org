@@ -50,7 +50,7 @@ In the book's notation we want a $k$ such that $[k]P = Q$, where $P$ is the gene
 - computation problem :: do a computation for me. "What is the result of one divided by zero?"
 - associative :: $(xy)z = x(yz)$
 - commutative :: $xy = yx$
-- image :: For a subset `R` of `S` the /image/ of $f(R)$ is the set of all $f(r)$ where $r ∈ R$.
+- image :: For a subset $R$ of $S$ the /image/ of $f(R)$ is the set of all $f(r)$ where $r ∈ R$.
 - $\mathbb{Z}/n\mathbb{Z}$ :: As best "we" can tell: This is "integers that are multiples of $n$". If $n$ is five, then it means $[0, 5, 10, ...]$
 - $\langle x \rangle$ :: the set $\{x^n | n ∈ \mathbb{Z}\}$
 
