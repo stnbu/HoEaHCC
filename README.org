@@ -20,7 +20,7 @@ Best enjoyed [[https://unintuitive.org/HoEaHCC/README.html][here]]! The repo is 
 ** Subgroup
 
 Let =G= be a group. A subgroup =H= of =G= is a subset of =G= containing the unit element =e= and such that
-- forall =x,y ∈ H= one has xy ∈ H
+- for all =x,y ∈ H= one has xy ∈ H
 - if =x ∈ H= then also $x^{−1} ∈ H$.
 
 tl;dr -- A subgroup is exactly what it sounds like: A group formed by some elements of a larger group.
@@ -51,6 +51,7 @@ In the book's notation we want a =k= such that =[k]P = Q=, where =P= is the gene
 - computation problem :: do a computation for me. "What is the result of one divided by zero?"
 - associative :: =(xy)z = x(yz)=
 - commutative :: =xy = yx=
+- image :: For a subset `R` of `S` the /image/ of =f(R)= is the set of all =f(r)= where =r ∈ R=.
 
 "One can formulate a computation problem from a decision problem." Really?
 
@@ -65,6 +66,9 @@ In the book's notation we want a =k= such that =[k]P = Q=, where =P= is the gene
 - "Common notations for the image of (x, y) under this mapping are x × y..." I am thrown by "image". That's not the same as "members x and y" wat? image?
 - "The **group G is said to be** commutative or **abelian**, if the composition law is commutative. As previously mentioned, the law is often denoted by + or ⊕ and the unit element by 0 in this case." wwhaaat? -- Are + and ⊕ interchangeable and /have nothing to do with/ commutativity? Is 0 the unit element /in the case/ of abelian groups? (only? yes but also?) -- questions about notation.
 
-* Some resources
+* Some resources; no promises
 
 - https://loup-vaillant.fr/tutorials/cofactor
+- https://cr.yp.to/ecdh/curve25519-20060209.pdf
+- https://jeremykun.com/2014/03/13/programming-with-finite-fields/
+- https://github.com/stnbu/finite-fields
