@@ -6,10 +6,10 @@ Best enjoyed [[https://unintuitive.org/HoEaHCC/README.html][here]]! The repo is 
 
 ** Group
 
-- /Closure/ :: If =x= and =y= are two elements in a group, =G=, then =x . y= is also in =G=.
-- /Associativity/ :: If =x=, =y= and =z= are in group =G=, then =x . (y . z) = (x . y) . z=
-- /Invertibility/ :: For every =x= in =G=, there exists some =y= in =G=, such that; =x . y = y . x=
-- /Identity/ :: For any element =x= in =G=, there exists an element =I= in =G=, such that: =x . I = I . x=, where =I= is called the identity element of =G=.
+- /Closure/ :: If $x$ and $y$ are two elements in a group, $G$, then $x . y$ is also in $G$.
+- /Associativity/ :: If $x$, $y$ and $z$ are in group $G$, then $x . (y . z) = (x . y) . z$
+- /Invertibility/ :: For every $x$ in $G$, there exists some $y$ in $G$, such that; $x . y = y . x$
+- /Identity/ :: For any element $x$ in $G$, there exists an element $I$ in $G$, such that: $x . I = I . x$, where $I$ is called the identity element of $G$.
 
 Other
   - The unit of a group is unique [wait, are unit and identity always interchangeable...?]
@@ -18,9 +18,9 @@ Other
 
 ** Subgroup
 
-Let =G= be a group. A subgroup =H= of =G= is a subset of =G= containing the unit element =e= and such that
-- for all =x,y ∈ H= one has xy ∈ H
-- if =x ∈ H= then also $x^{−1} ∈ H$.
+Let $G$ be a group. A subgroup $H$ of $G$ is a subset of $G$ containing the unit element $e$ and such that
+- for all $x,y ∈ H$ one has xy ∈ H
+- if $x ∈ H$ then also $x^{−1} ∈ H$.
 
 tl;dr -- A subgroup is exactly what it sounds like: A group formed by some elements of a larger group.
 
@@ -38,20 +38,20 @@ tl;dr -- A subgroup is exactly what it sounds like: A group formed by some eleme
 
 ** Discrete logarithm [problem]
 
-"[I]n any group =G=, powers =b**k= can be defined for all integers =k=, and the discrete logarithm =logba= (heh) is an integer =k= such that =b**k = a="
+"[I]n any group $G$, powers $b**k$ can be defined for all integers $k$, and the discrete logarithm $logba$ (heh) is an integer $k$ such that $b**k = a$"
 
-The **problem** is that it's hard to find a =k= given only =b= and =a=.
+The **problem** is that it's hard to find a $k$ given only $b$ and $a$.
 
-In the book's notation we want a =k= such that =[k]P = Q=, where =P= is the generator (a point chosen on the curve that forms a group). =P= is fundamental to the chosen curve's finite field. =Q= is your "public key" and =k= is your "private key" (probably wrong <---)
+In the book's notation we want a $k$ such that $[k]P = Q$, where $P$ is the generator (a point chosen on the curve that forms a group). $P$ is fundamental to the chosen curve's finite field. $Q$ is your "public key" and $k$ is your "private key" (probably wrong <---)
 
 ** Short Definitions
 
 - decision problem :: is statement about input true or false. "Is this number prime?"
 - computation problem :: do a computation for me. "What is the result of one divided by zero?"
-- associative :: =(xy)z = x(yz)=
-- commutative :: =xy = yx=
-- image :: For a subset `R` of `S` the /image/ of =f(R)= is the set of all =f(r)= where =r ∈ R=.
-- $\mathbb{Z}/n\mathbb{Z}$ :: As best "we" can tell: This is "integers that are multiples of =n=". If =n= is five, then it means =[0, 5, 10, ...]=
+- associative :: $(xy)z = x(yz)$
+- commutative :: $xy = yx$
+- image :: For a subset `R` of `S` the /image/ of $f(R)$ is the set of all $f(r)$ where $r ∈ R$.
+- $\mathbb{Z}/n\mathbb{Z}$ :: As best "we" can tell: This is "integers that are multiples of $n$". If $n$ is five, then it means $[0, 5, 10, ...]$
 - $\langle x \rangle$ :: the set $\{x^n | n ∈ \mathbb{Z}\}$
 
 "One can formulate a computation problem from a decision problem." Really?
@@ -61,7 +61,7 @@ In the book's notation we want a =k= such that =[k]P = Q=, where =P= is the gene
 - "On the other hand for elliptic curves no subexponential algorithm is known for the DLP" --> Is this the definition of an "elliptic curve"? or a property?
 - "Jacobians of curves of small genus"
 - "abstract cohomology theories and classical results from explicit class field theory are used for efficient implementations to count points on hyperelliptic curves" --> /only/ hyperelliptic curves?
-- Are there "points outside of a (EC) group that lead you /into/ a group?" -- the more I learn the more I wonder if the question makes sense. =[k]P= is in the group /by definition/. So in that way there is no "starting outside the group". But what about starting with a different generator? can =[j]Q = [k]K= for some =[j]Q= that is outside of the group? err, grumble.
+- Are there "points outside of a (EC) group that lead you /into/ a group?" -- the more I learn the more I wonder if the question makes sense. $[k]P$ is in the group /by definition/. So in that way there is no "starting outside the group". But what about starting with a different generator? can $[j]Q = [k]K$ for some $[j]Q$ that is outside of the group? err, grumble.
 - What's with this affine/projection stuff on P271?
 - "Common notations for the image of (x, y) under this mapping are x × y..." --> I am thrown by "image". That's not the same as "members x and y" wat? image? [We now think we know what "image" means and define it above 👆]
 - "The **group G is said to be** commutative or **abelian**, if the composition law is commutative. As previously mentioned, **the law is often denoted by + or ⊕ and the unit element by 0 in this case.**" --> wwhaaat? -- Are + and ⊕ interchangeable and /have nothing to do with/ commutativity? Is 0 the unit element /in the case/ of abelian groups? (only? yes but also?) -- questions about notation.
