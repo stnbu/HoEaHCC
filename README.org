@@ -47,7 +47,7 @@ In the book's notation we want a =k= such that =[k]P = Q=, where =P= is the gene
 
 ** Foo
 
-\usepackage{amsfonts}
+# \usepackage{amsfonts}
 
 $\mathbb{R}$ is the set of real numbers.
 
