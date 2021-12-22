@@ -42,7 +42,7 @@ NOTE: The book says:
 #+CAPTION: Indecipherable book excerpt 1.0
 [[./res/respectively_yours.jpg]]
 
-I try to make it comprehensible (to me) below. Not quite there, I think. Is $x~y$ pronounced "y is equivalent to x"? Is $x~y ∈ H$ pronouced "the relation of $y ~ x$ /is in/ $H$" ....? I need a pronounciation guide for sommov this stuff.
+I try to make it comprehensible (to me) below. Not quite there, I think. Is $x ∼ y$ pronounced "y is equivalent to x"? Is $x~y ∈ H$ pronouced "the relation of $y ~ x$ /is in/ $H$" ....? I need a pronounciation guide for sommov this stuff.
 
 Let $G$ be a group and $H$ be a subgroup of $G$.
 
