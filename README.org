@@ -53,7 +53,7 @@ In the book's notation we want a =k= such that =[k]P = Q=, where =P= is the gene
 - commutative :: =xy = yx=
 - image :: For a subset `R` of `S` the /image/ of =f(R)= is the set of all =f(r)= where =r ∈ R=.
 - $\mathbb{Z}/n\mathbb{Z}$ :: As best "we" can tell: This is "integers that are multiples of =n=". If =n= is five, then it means =[0, 5, 10, ...]=
-- ${\displaystyle \langle f|}$
+- $\langle x \rangle$ :: $x^n | n ∈ \mathbb{Z}$
 
 "One can formulate a computation problem from a decision problem." Really?
 
