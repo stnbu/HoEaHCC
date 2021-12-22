@@ -1,6 +1,6 @@
 #+Title: HoEaHCC, notes on
 # Is /this/ how we do this? 👇
-# \usepackage{amsfonts}
+# blahslash_usepackage{amsfonts}
 
 Best enjoyed [[https://unintuitive.org/HoEaHCC/README.html][here]]! The repo is [[https://github.com/stnbu/HoEaHCC][here]].
 
