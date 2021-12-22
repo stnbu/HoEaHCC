@@ -60,7 +60,7 @@ $\mathbf{Z}$ test
 - associative :: =(xy)z = x(yz)=
 - commutative :: =xy = yx=
 - image :: For a subset `R` of `S` the /image/ of =f(R)= is the set of all =f(r)= where =r ∈ R=.
-- $\mathbf{Z}$/n$\mathbf{Z}$ :: As best "we" can tell: This is "integers that are multiples of =n=". If =n= is five, then it means =[0, 5, 10, ...]=
+- $\mathbf{Z}/n\mathbf{Z}$ :: As best "we" can tell: This is "integers that are multiples of =n=". If =n= is five, then it means =[0, 5, 10, ...]=
 
 "One can formulate a computation problem from a decision problem." Really?
 
