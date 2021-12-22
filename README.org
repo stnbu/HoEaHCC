@@ -58,14 +58,13 @@ In the book's notation we want a =k= such that =[k]P = Q=, where =P= is the gene
 
 * What The Hell Is This
 
-- =G = (Z/nZ)∗=
-- On the other hand for elliptic curves no subexponential algorithm is known for the DLP :: Is this the definition of an "elliptic curve"? or a property?
+- "On the other hand for elliptic curves no subexponential algorithm is known for the DLP" --> Is this the definition of an "elliptic curve"? or a property?
 - "Jacobians of curves of small genus"
-- abstract cohomology theories and classical results from explicit class field theory are used for efficient implementations to count points on hyperelliptic curves :: /only/ hyperelliptic curves?
+- "abstract cohomology theories and classical results from explicit class field theory are used for efficient implementations to count points on hyperelliptic curves" --> /only/ hyperelliptic curves?
 - Are there "points outside of a (EC) group that lead you /into/ a group?" -- the more I learn the more I wonder if the question makes sense. =[k]P= is in the group /by definition/. So in that way there is no "starting outside the group". But what about starting with a different generator? can =[j]Q = [k]K= for some =[j]Q= that is outside of the group? err, grumble.
-- "What's with this affine/projection stuff on P271?"
-- "Common notations for the image of (x, y) under this mapping are x × y..." I am thrown by "image". That's not the same as "members x and y" wat? image?
-- "The **group G is said to be** commutative or **abelian**, if the composition law is commutative. As previously mentioned, the law is often denoted by + or ⊕ and the unit element by 0 in this case." wwhaaat? -- Are + and ⊕ interchangeable and /have nothing to do with/ commutativity? Is 0 the unit element /in the case/ of abelian groups? (only? yes but also?) -- questions about notation.
+- What's with this affine/projection stuff on P271?
+- "Common notations for the image of (x, y) under this mapping are x × y..." --> I am thrown by "image". That's not the same as "members x and y" wat? image?
+- "The **group G is said to be** commutative or **abelian**, if the composition law is commutative. As previously mentioned, **the law is often denoted by + or ⊕ and the unit element by 0 in this case.**" --> wwhaaat? -- Are + and ⊕ interchangeable and /have nothing to do with/ commutativity? Is 0 the unit element /in the case/ of abelian groups? (only? yes but also?) -- questions about notation.
 
 * Some resources; no promises
 
