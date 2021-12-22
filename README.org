@@ -81,8 +81,8 @@ An equivalence class for this relation is denoted by $xH = \{xh | h ∈ H\}$, re
 - commutative :: $xy = yx$
 - image :: For a subset $R$ of $S$ the /image/ of $f(R)$ is the set of all $f(r)$ where $r ∈ R$.
 - $\mathbb{Z}/n\mathbb{Z}$ ::
-  1) As best "we" can tell: This is "integers that are multiples of $n$". If $n$ is five, then it means $[0, 5, 10, ...]$
-  _Or is it_ 2) is it "the cyclic group of order $n$"? aka $[0, 1, 2, ...n-1]$ ...?
+  As best "we" can tell: This is "integers that are multiples of $n$". If $n$ is five, then it means $[0, 5, 10, ...]$
+  _Or is it_ "the cyclic group of order $n$"? aka $[0, 1, 2, ...n-1]$ ...?
 - $\langle x \rangle$ :: the set $\{x^n | n ∈ \mathbb{Z}\}$
 
 "One can formulate a computation problem from a decision problem." Really?
