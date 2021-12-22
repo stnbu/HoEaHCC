@@ -23,7 +23,7 @@ Axiomatical corrolaries and properties that groups can have...
 - Every subgroup of a cyclic group G is also cyclic.
 - If $G$ is cyclic and of order $n$, then for each divisor $d$ of $n$, $G$ contains exactly one cyclic subgroup of order $d$.
 
-*** Subgroup
+**** Subgroup
 
  Let $G$ be a group. A subgroup $H$ of $G$ is a subset of $G$ containing the unit element $e$ and such that
  - for all $x,y ∈ H$ one has xy ∈ H
@@ -31,9 +31,13 @@ Axiomatical corrolaries and properties that groups can have...
 
  tl;dr -- A subgroup is exactly what it sounds like: A group formed by some elements of a larger group.
 
-*** Abelian Group
+**** Abelian Group
 
  - Group with commutativity.
+
+**** Equivalence classes and left/right cosets
+
+Let $G$ be a group and $H$ be a subgroup of $G$. For all $x, y ∈ G$, the relation $x∼y ∈ H$, if and only if $x^{−1}y ∈ H$, respectively XXXX x ∼ yifandonlyifyx−1 ∈H,isanequivalence relation. An equivalence class for this relation is denoted by xH = {xh | h ∈ H}, respectively Hx = {hx | h ∈ H} and are called respectively left and right cosets of H. The numbers of classes for both relations are the same. This invariant is called the index of H in G and is denoted by [G : H].
 
 *** Field
 
