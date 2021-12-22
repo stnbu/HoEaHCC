@@ -2,7 +2,7 @@
 
 Best enjoyed [[https://unintuitive.org/HoEaHCC/README.html][here]]! The repo is [[https://github.com/stnbu/HoEaHCC][here]].
 
-* Nomenclature
+* Long Definitions
 
 ** Group
 
@@ -11,11 +11,10 @@ Best enjoyed [[https://unintuitive.org/HoEaHCC/README.html][here]]! The repo is 
 - /Invertibility/ :: For every =x= in =G=, there exists some =y= in =G=, such that; =x . y = y . x=
 - /Identity/ :: For any element =x= in =G=, there exists an element =I= in =G=, such that: =x . I = I . x=, where =I= is called the identity element of =G=.
 
-*** and also...
-
-- The unit of a group is unique [wait, are unit and identity always interchangeable...?]
-- The inverse of an element x, denoted by $x^{−1}$, is unique
-- If abelian, the inverse of x is usually denoted by −x
+Other
+  - The unit of a group is unique [wait, are unit and identity always interchangeable...?]
+  - The inverse of an element x, denoted by $x^{−1}$, is unique
+  - If abelian, the inverse of x is usually denoted by −x
 
 ** Subgroup
 
@@ -45,7 +44,7 @@ The **problem** is that it's hard to find a =k= given only =b= and =a=.
 
 In the book's notation we want a =k= such that =[k]P = Q=, where =P= is the generator (a point chosen on the curve that forms a group). =P= is fundamental to the chosen curve's finite field. =Q= is your "public key" and =k= is your "private key" (probably wrong <---)
 
-** Foo
+** Short Definitions
 
 - decision problem :: is statement about input true or false. "Is this number prime?"
 - computation problem :: do a computation for me. "What is the result of one divided by zero?"
