@@ -23,7 +23,6 @@ Axiomatical corollaries and properties that groups can have...
 - Every subgroup of a cyclic group G is also cyclic.
 - If $G$ is cyclic and of order $n$, then for each divisor $d$ of $n$, $G$ contains exactly one cyclic subgroup of order $d$.
 
-  
 **** Subgroup
 
 Let $G$ be a group. A subgroup $H$ of $G$ is a subset of $G$ containing the unit element $e$ and such that
