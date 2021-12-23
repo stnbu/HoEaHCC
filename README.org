@@ -89,6 +89,7 @@ $(G,∗)≅(H,⊙)$
 - computation problem :: do a computation for me. "What is the result of one divided by zero?"
 - associative :: $(xy)z = x(yz)$
 - commutative :: $xy = yx$
+- transative :: $x = y$ and $y = z$ $\implies x = z$
 - image :: For a subset $R$ of $S$ the /image/ of $f(R)$ is the set of all $f(r)$ where $r ∈ R$.
 - $\mathbb{Z}/n\mathbb{Z}$ ::
   As best "we" can tell: This is "integers that are multiples of $n$". If $n$ is five, then it means $[0, 5, 10, ...]$
