@@ -14,7 +14,7 @@ A group satisfies the axioms...
 - /Invertibility/ :: For every $x$ in $G$, there exists some $y$ in $G$, such that; $x . y = y . x$
 - /Identity/ :: For any element $x$ in $G$, there exists an element $I$ in $G$, such that: $x . I = I . x$, where $I$ is called the identity element of $G$.
 
-Axiomatical corrolaries and properties that groups can have...
+Axiomatical corollaries and properties that groups can have...
 
 - The unit of a group is unique [wait, are unit and identity always interchangeable...?]
 - The inverse of an element x, denoted by $x^{−1}$, is unique
@@ -46,7 +46,7 @@ NOTE: The book says:
 #+CAPTION: Indecipherable book excerpt 1.0
 [[./res/respectively_yours.jpg]]
 
-I try to make it comprehensible (to me) below. Not quite there, I think. Is $x ∼ y$ pronounced "y is equivalent to x"? Is $x ∼ y ∈ H$ pronouced "the relation of $x ∼ y$ /is in/ $H$" ....? I need a pronounciation guide for sommov this stuff.
+I try to make it comprehensible (to me) below. Not quite there, I think. Is $x ∼ y$ pronounced "y is equivalent to x"? Is $x ∼ y ∈ H$ pronounced "the relation of $x ∼ y$ /is in/ $H$" ....? I need a pronunciation guide for sommov this stuff.
 -----
 
 *My deciphering:*
@@ -89,7 +89,7 @@ $(G,∗)≅(H,⊙)$
 - computation problem :: do a computation for me. "What is the result of one divided by zero?"
 - associative :: $(xy)z = x(yz)$
 - commutative :: $xy = yx$
-- transative :: $x = y$ and $y = z$ $\implies x = z$
+- transitive :: $x = y$ and $y = z$ $\implies x = z$
 - image :: For a subset $R$ of $S$ the /image/ of $f(R)$ is the set of all $f(r)$ where $r ∈ R$.
 - $\mathbb{Z}/n\mathbb{Z}$ ::
   As best "we" can tell: This is "integers that are multiples of $n$". If $n$ is five, then it means $[0, 5, 10, ...]$
