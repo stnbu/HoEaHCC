@@ -53,15 +53,15 @@ Every group $G$ is isomorphic to a subgroup of the symmetric group $Sym(G)$ whos
 
 *** Field
 
- - "[A] field is a set on which addition, subtraction, multiplication, and division are defined and behave as the corresponding operations on rational and real numbers do."
+"[A] field is a set on which addition, subtraction, multiplication, and division are defined and behave as the corresponding operations on rational and real numbers do."
 
 *** Ring
 
- - "[R]ings are algebraic structures that generalize fields: multiplication need not be commutative and multiplicative inverses need not exist."
+"[R]ings are algebraic structures that generalize fields: multiplication need not be commutative and multiplicative inverses need not exist."
 
 *** Discrete logarithm [problem]
 
- "[I]n any group $G$, powers $b**k$ can be defined for all integers $k$, and the discrete logarithm $log_ba$ is an integer $k$ such that $b^k = a$"
+"[I]n any group $G$, powers $b**k$ can be defined for all integers $k$, and the discrete logarithm $log_ba$ is an integer $k$ such that $b^k = a$"
 
  The **problem** is that it's hard to find a $k$ given only $b$ and $a$.
 
