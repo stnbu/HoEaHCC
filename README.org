@@ -104,6 +104,8 @@ $(G,∗)≅(H,⊙)$
 - "Definition 2.6 Let $G$ be a group. An element $x ∈ G$ is of finite order if $\langle x \rangle$ is finite." --> Can there be infinite-order groups that have $x$ of finite order? And we are saying the /element/ is of finite order, yes?
 - "The group $S_n$ is solvable if and only if $n <= 4$. " NNeat!
 - "This is an essential part of the proof of the Abel–Ruffini theorem that shows that for every $n > 4$ there are polynomials of degree $n$ which are not solvable by radicals, that is, the solutions cannot be expressed by performing a finite number of operations of addition, subtraction, multiplication, division and root extraction on the polynomial's coefficients." --> sure sounds important
+- ${\displaystyle g=(1\ 2\ 5)(3\ 4)=$
+  ${\begin{pmatrix}1&2&3&4&5\\2&5&4&3&1\end{pmatrix}}.}$
 
 * Some resources; no promises
 
