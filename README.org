@@ -31,7 +31,7 @@ Let $G$ be a group. A subgroup $H$ of $G$ is a subset of $G$ containing the unit
 
  tl;dr -- A subgroup is exactly what it sounds like: A group formed by some elements of a larger group.
 
-[[https://byjus.com/maths/lagrange-theorem/][Lagrange Theorem]]
+[[https://mathworld.wolfram.com/LagrangesGroupTheorem.html][Lagrange Theorem]]
 
 Let $G$ be a finite group and $H$ be a subgroup of $G$. Then the order of $H$ divides the order of $G$. As a consequence, the order of every element [in $H$?] also divides the order of $G$.
 
@@ -41,21 +41,15 @@ Let $G$ be a finite group and $H$ be a subgroup of $G$. Then the order of $H$ di
 
 **** Equivalence classes and left/right cosets
 
------
-NOTE: The book says: 
-#+CAPTION: Indecipherable book excerpt 1.0
-[[./res/respectively_yours.jpg]]
-
-I try to make it comprehensible (to me) below. Not quite there, I think. Is $x ∼ y$ pronounced "y is equivalent to x"? Is $x ∼ y ∈ H$ pronounced "the relation of $x ∼ y$ /is in/ $H$" ....? I need a pronunciation guide for sommov this stuff.
------
-
-*My deciphering:*
-
 Let $G$ be a group and $H$ be a subgroup of $G$.
 
 For all $x, y ∈ G$, the relation $x∼y ∈ H$, if and only if $x^{−1}y ∈ H$ and $x ∼ y$ if and only if $yx^{−1} ∈ H$, is an equivalence relation.
 
 An equivalence class for this relation is denoted by $xH = \{xh | h ∈ H\}$, respectively $Hx = \{hx | h ∈ H\}$ and are called respectively left and right /cosets/ of $H$. The numbers of classes for both relations are the same. This invariant is called the "index of $H$ in $G$" and is denoted by $[G : H]$.
+
+**** Cayley's Theorem
+
+Every group $G$ is isomorphic to a subgroup of the symmetric group $Sym(G)$ whose elements are the permutations of the underlying set of $G$
 
 *** Field
 
