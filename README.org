@@ -2,6 +2,10 @@
 
 Best enjoyed [[https://unintuitive.org/HoEaHCC/README.html][here]]! The repo is [[https://github.com/stnbu/HoEaHCC][here]].
 
+test:
+
+$a_{22} = 3.45 \ \mathrm{mm}$
+
 * Definitions
 ** Long Definitions
 
