@@ -106,6 +106,7 @@ $(G,∗)≅(H,⊙)$
 - "Common notations for the image of (x, y) under this mapping are x × y..." --> I am thrown by "image". That's not the same as "members x and y" wat? image? [We now think we know what "image" means and define it above 👆]
 - "The **group G is said to be** commutative or **abelian**, if the composition law is commutative. As previously mentioned, **the law is often denoted by + or ⊕ and the unit element by 0 in this case.**" --> wwhaaat? -- Are + and ⊕ interchangeable and /have nothing to do with/ commutativity? Is 0 the unit element /in the case/ of abelian groups? (only? yes but also?) -- questions about notation.
 - "Definition 2.6 Let $G$ be a group. An element $x ∈ G$ is of finite order if $\langle x \rangle$ is finite." --> Can there be infinite-order groups that have $x$ of finite order? And we are saying the /element/ is of finite order, yes?
+- "The group Sn is solvable if and only if $n <= 4$. " NNeat!
 
 * Some resources; no promises
 
