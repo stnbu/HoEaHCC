@@ -26,7 +26,7 @@ class SGE:
 
     def __mul__(self, other):
         if len(self.mapping) != len(other.mapping):
-            raise Exception('Cannot compose mappings of length %d and %d' %
+            raise Exception('Cannot compose mappings of degree %d and %d' %
                             (len(other.self), len(other.mapping)))
         mapping = []
         for _from, _to in self.mapping:
