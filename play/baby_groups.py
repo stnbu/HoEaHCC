@@ -1,4 +1,13 @@
 #!/usr/bin/env python3
+"""
+Simple modeling of and experimentation with symmetric groups.
+ * https://mathworld.wolfram.com/SymmetricGroup.html
+ * https://en.wikipedia.org/wiki/Symmetric_group
+"""
+
+# Make some unique symbols
+for symbol in 'abcdefghijklmnopqrstuvwxyz':
+    globals()[symbol] = symbol
 
 ###
 # FIXME:
@@ -11,28 +20,36 @@ class GroupElement:
         self.mapping = mapping
 
     def __mul__(self, other):
-        mapping = [[], []]
+        mapping = []
         for _from, _to in self.mapping:
-            mapping[0].append(_from)
-            mapping[1].append(other.map(_to))
+            mapping.append([_from, other.map(_to)])
         return GroupElement(mapping)
 
     def map(self, symbol):
+        #import ipdb; ipdb.set_trace()
         for _from, _to in self.mapping:
             if _from == symbol:
                 return _to
         raise Exception('Can not map.')
 
-
+    def __repr__(self):
+        return repr(dict(self.mapping))
 
 class SymmetricGroup:
+    """This class is mostly about preventing typos and sanity checking, and also for convenience.
+    Its dict-like "keys" are the mappings themselves.
+
+    >>> g = SymmetricGroup(2)
+    >>> g[[0, 1], [1, 0]] * g[[0, 0], [1, 1]]
+    {0: 1, 1: 0}
+    """
 
     def __init__(self, size):
         self.size = size
 
     def __getitem__(self, mapping):  # "values" of this "dict" are known by their mapping.
         if len(mapping) != self.size or not all(map(lambda i: len(i) == 2, mapping)):
-            raise Exception('Not a valid mapping for a symmetric group of BunnyFart (size?)')
+            raise Exception('Not a valid mapping for a symmetric group of BunnyFart=%d' % self.size)
         if len(set(mapping[0])) != len(set(mapping[1])):
             raise Exception('Not a bijection.')
         return GroupElement(mapping)
@@ -40,52 +57,24 @@ class SymmetricGroup:
 
 if __name__ == '__main__':
 
-    m1 = [
+    G = SymmetricGroup(2)
+    g1 = G[[(a, b), (b, a)]]
+    g2 = G[[(a, a), (b, b)]]
+    print(g1 * g2)
+    print(g2 * g1)
+
+    H = SymmetricGroup(4)
+    h1 = H[[
         (a, b),
         (b, c),
         (c, a),
         (d, d),
-    ]
-
-    m2 = [
+    ]]
+    h2 = H[[
         (a, b),
         (b, a),
         (c, c),
         (d, d),
-    ]
-
-    sg4 = SymmetricGroup(4)
-
-    f_1 = sg4[m1]
-    f_2 = sg4[m2]
-
-    n = f_1 * f_2
-
-    print(n)
-
-    
-    # _g = get_cauchy_funk([
-    #     (a, b),
-    #     (b, a),
-    #     (c, c),
-    #     (d, d),
-    # ])
-
-    # assert _g(_f(a)) == a
-    # assert _f(_g(a)) == c
-
-    # baby_group_mapping = [
-    #     (a, c, b),
-    #     (a, b, c),
-    #     (a, a, a),
-    #     (b, a, c),
-    #     (b, b, b),
-    #     (b, c, a),
-    #     (c, a, b),
-    #     (c, b, a),
-    #     (c, c, c),
-    # ]
-    # bge_a = BabyGroupElement(a, baby_group_mapping)
-    # bge_b = BabyGroupElement(b, baby_group_mapping)
-    # print("survey says: %s" % (bge_a * bge_b))
-    
+    ]]
+    print(h1 * h2)
+    print(h2 * h1)
