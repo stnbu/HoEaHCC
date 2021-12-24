@@ -73,6 +73,12 @@ The **problem** is that it's hard to find a $k$ given only $b$ and $a$.
 
 In the book's notation we want a $k$ such that $[k]P = Q$, where $P$ is the generator (a point chosen on the curve that forms a group). $P$ is fundamental to the chosen curve's finite field. $Q$ is your "public key" and $k$ is your "private key" (probably wrong <---)
 
+*** Homomorphism
+
+Given two groups, $(G, ∗)$ and $(H, \cdot)$, a group homomorphism from $(G, ∗)$ to $(H, \cdot)$ is a function $h : G → H$ such that for all $u$ and $v$ in $G$ it holds that
+
+$h(u*v)=h(u)\cdot h(v)$
+
 *** Isomorphism
 
 Given two groups $(G,*)$ and $(H,⊙)$, a group isomorphism from $(G,∗)$ to $(H,⊙)$ is a bijective group homomorphism from $G$ to $H$. Spelled out, this means that a group isomorphism is a bijective function $f:G\to H$ such that for all $u$ and $v$ in $G$ it holds that
