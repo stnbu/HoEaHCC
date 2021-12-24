@@ -89,8 +89,7 @@ $(G,∗)≅(H,⊙)$
   As best "we" can tell: This is "integers that are multiples of $n$". If $n$ is five, then it means $[0, 5, 10, ...]$
   _Or is it_ "the cyclic group of order $n$"? aka $[0, 1, 2, ...n-1]$ ...?
 - $\langle x \rangle$ :: the set $\{x^n | n ∈ \mathbb{Z}\}$
-- conjugacy and equivalence :: elements $a$ and $b$ of a group are conjugate if there is an element $g$ in the group such that
-  $b=g^{-1}ag$. This is an equivalence relation whose equivalence classes are called conjugacy classes.
+- conjugacy and equivalence :: elements $a$ and $b$ of a group are conjugate if there is an element $g$ in the group such that $b=g^{-1}ag$. This is an equivalence relation whose equivalence classes are called conjugacy classes.
 
 
 "One can formulate a computation problem from a decision problem." Really?
