@@ -1,24 +1,9 @@
 #!/usr/bin/env python3
 
-"""
-"The group of all permutations on S"
-
-S = [0, 1]
-
-Sym(S) = [[0, 1], [1, 0]]
-
-"""
-
-def get_cauchy_funk(mapping):
-    def f(n):
-        for _from, _to in mapping:
-            if _from == n:
-                return _to
-    return f
-
-# Just make a bunch of unique global symbols for experimentation.
-for symbol in 'abcdefghijklmnopqrstuvwxyz':
-    globals()[symbol] = symbol
+###
+# FIXME:
+#   * I use BunnyFart in place of "the cardinally of the set we are permuting".
+#     What is the name of that `n`, if not BunnyFart?
 
 class GroupElement:
 
@@ -26,46 +11,68 @@ class GroupElement:
         self.mapping = mapping
 
     def __mul__(self, other):
-        for x, y, z in self.mapping:
-            if x != self.value: continue
-            if y == other.value:
-                return z
-        raise Exception('oops')
+        mapping = [[], []]
+        for _from, _to in self.mapping:
+            mapping[0].append(_from)
+            mapping[1].append(other.map(_to))
+        return GroupElement(mapping)
+
+    def map(self, symbol):
+        for _from, _to in self.mapping:
+            if _from == symbol:
+                return _to
+        raise Exception('Can not map.')
+
+
 
 class SymmetricGroup:
 
     def __init__(self, size):
         self.size = size
 
-    def __getitem__(self, index):
-        if index[0] != self.size || index[1] != self.size:
-            raise Exception('Not a valid index for a symmetric group of xxx (size?)')
-        if len(set(index[0])) != len(set(index[1])):
-            raise Exception('BAD MAP!')
-        # The "key" is `((1, 2, ...), (9, 37, ...))`
-        # i.e. [Cauchy's two-line notation](https://en.wikipedia.org/wiki/Symmetric_group#Multiplication)
-        # This is a _mapping_ but we call it an index to imphisize this refers to an member of the symmetric group.
-        return get_cauchy_funk(index)
+    def __getitem__(self, mapping):  # "values" of this "dict" are known by their mapping.
+        if len(mapping) != self.size or not all(map(lambda i: len(i) == 2, mapping)):
+            raise Exception('Not a valid mapping for a symmetric group of BunnyFart (size?)')
+        if len(set(mapping[0])) != len(set(mapping[1])):
+            raise Exception('Not a bijection.')
+        return GroupElement(mapping)
 
 
 if __name__ == '__main__':
 
-    _f = get_cauchy_funk([
+    m1 = [
         (a, b),
         (b, c),
         (c, a),
         (d, d),
-    ])
+    ]
 
-    _g = get_cauchy_funk([
+    m2 = [
         (a, b),
         (b, a),
         (c, c),
         (d, d),
-    ])
+    ]
 
-    assert _g(_f(a)) == a
-    assert _f(_g(a)) == c
+    sg4 = SymmetricGroup(4)
+
+    f_1 = sg4[m1]
+    f_2 = sg4[m2]
+
+    n = f_1 * f_2
+
+    print(n)
+
+    
+    # _g = get_cauchy_funk([
+    #     (a, b),
+    #     (b, a),
+    #     (c, c),
+    #     (d, d),
+    # ])
+
+    # assert _g(_f(a)) == a
+    # assert _f(_g(a)) == c
 
     # baby_group_mapping = [
     #     (a, c, b),
