@@ -5,25 +5,38 @@ Simple modeling of and experimentation with symmetric groups.
  * https://en.wikipedia.org/wiki/Symmetric_group
 """
 
-# Make some unique symbols
-for symbol in 'abcdefghijklmnopqrstuvwxyz':
-    globals()[symbol] = symbol
-
 ###
 # FIXME:
 #   * I use BunnyFart in place of "the cardinally of the set we are permuting".
 #     What is the name of that `n`, if not BunnyFart?
 
-class GroupElement:
+def is_bijection(mapping):
+    from_set = set()
+    to_set = set()
+    for _from, _to in mapping:
+        from_set.add(_from)
+        to_set.add(_to)
+
+    # require that the _sets_ are equal
+    return from_set == to_set
+
+class SGE:
+    """SGE == Symmetric Group Element
+    """
 
     def __init__(self, mapping):
+        if not is_bijection(mapping):
+            raise Exception('Not a bijection')
         self.mapping = mapping
 
     def __mul__(self, other):
+        if len(self.mapping) != len(other.mapping):
+            raise Exception('Cannot _COMPOSE_ BunnyFart=%d with BunnyFart=%d' %
+                            (len(other.self), len(other.mapping)))
         mapping = []
         for _from, _to in self.mapping:
             mapping.append([_from, other.map(_to)])
-        return GroupElement(mapping)
+        return SGE(mapping)
 
     def map(self, symbol):
         for _from, _to in self.mapping:
@@ -34,46 +47,29 @@ class GroupElement:
     def __repr__(self):
         return repr(dict(self.mapping))
 
-class SymmetricGroup:
-    """This class is mostly about preventing typos and sanity checking, and also for convenience.
-    Its dict-like "keys" are the mappings themselves.
-
-    >>> g = SymmetricGroup(2)
-    >>> g[[0, 1], [1, 0]] * g[[0, 0], [1, 1]]
-    {0: 1, 1: 0}
-    """
-
-    def __init__(self, size):
-        self.size = size
-
-    def __getitem__(self, mapping):  # "values" of this "dict" are known by their mapping.
-        if len(mapping) != self.size or not all(map(lambda i: len(i) == 2, mapping)):
-            raise Exception('Not a valid mapping for a symmetric group of BunnyFart=%d' % self.size)
-        if len(set(mapping[0])) != len(set(mapping[1])):
-            raise Exception('Not a bijection.')
-        return GroupElement(mapping)
-
 
 if __name__ == '__main__':
 
-    G = SymmetricGroup(2)
-    g1 = G[[(a, b), (b, a)]]
-    g2 = G[[(a, a), (b, b)]]
+    # Make some unique symbols
+    for symbol in 'abcdefghijklmnopqrstuvwxyz':
+        globals()[symbol] = symbol
+
+    g1 = SGE([(a, b), (b, a)])
+    g2 = SGE([(a, a), (b, b)])
     print(g1 * g2)
     print(g2 * g1)
 
-    H = SymmetricGroup(4)
-    h1 = H[[
+    h1 = SGE([
         (a, b),
         (b, c),
         (c, a),
         (d, d),
-    ]]
-    h2 = H[[
+    ])
+    h2 = SGE([
         (a, b),
         (b, a),
         (c, c),
         (d, d),
-    ]]
+    ])
     print(h1 * h2)
     print(h2 * h1)
