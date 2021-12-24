@@ -91,11 +91,9 @@ $(G,∗)≅(H,⊙)$
 - $\langle x \rangle$ :: the set $\{x^n | n ∈ \mathbb{Z}\}$
 - conjugacy and equivalence :: elements $a$ and $b$ of a group are conjugate if there is an element $g$ in the group such that $b=g^{-1}ag$. This is an equivalence relation whose equivalence classes are called conjugacy classes.
 
-
-"One can formulate a computation problem from a decision problem." Really?
-
 * What The Hell Is This
 
+- "One can formulate a computation problem from a decision problem." Really?
 - "On the other hand for elliptic curves no subexponential algorithm is known for the DLP" --> Is this the definition of an "elliptic curve"? or a property?
 - "Jacobians of curves of small genus"
 - "abstract cohomology theories and classical results from explicit class field theory are used for efficient implementations to count points on hyperelliptic curves" --> /only/ hyperelliptic curves?
