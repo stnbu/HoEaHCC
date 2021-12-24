@@ -3,7 +3,7 @@
 cd $(dirname "$0")
 
 git commit -am .
-git push
+#git push  # No push!! YOU push!
 emacs README.org --batch -f org-html-export-to-html --kill
 mkdir -p build
 mv -f README.html build/
