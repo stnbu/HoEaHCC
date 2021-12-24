@@ -5,11 +5,6 @@ Simple modeling of and experimentation with symmetric groups.
  * https://en.wikipedia.org/wiki/Symmetric_group
 """
 
-###
-# FIXME:
-#   * I use BunnyFart in place of "the cardinally of the set we are permuting".
-#     What is the name of that `n`, if not BunnyFart?
-
 def is_bijection(mapping):
     from_set = set()
     to_set = set()
@@ -31,7 +26,7 @@ class SGE:
 
     def __mul__(self, other):
         if len(self.mapping) != len(other.mapping):
-            raise Exception('Cannot _COMPOSE_ BunnyFart=%d with BunnyFart=%d' %
+            raise Exception('Cannot compose mappings of length %d and %d' %
                             (len(other.self), len(other.mapping)))
         mapping = []
         for _from, _to in self.mapping:
