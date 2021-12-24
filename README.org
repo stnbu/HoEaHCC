@@ -51,6 +51,8 @@ An equivalence class for this relation is denoted by $xH = \{xh | h ∈ H\}$, re
 
 Every group $G$ is isomorphic to a subgroup of the symmetric group $Sym(G)$ whose elements are the permutations of the underlying set of $G$
 
+- Q :: "every group $G$ is isomorphic to a subgroup of the symmetric group on (the underlying set of) $G$." --> If that is the case, then isn't $Sym(G) = Sym(\mathbb{Z}_n)$ where $n = |G|$ ...? In other words, the group composition law is not part of this. This is only permuting $|G|$ symbols, right!? What gives.
+
 *** Field
 
 "[A] field is a set on which addition, subtraction, multiplication, and division are defined and behave as the corresponding operations on rational and real numbers do."
