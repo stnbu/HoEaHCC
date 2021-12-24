@@ -3,8 +3,9 @@
 cd $(dirname "$0")
 
 git commit -am .
-#git push  # No push!! YOU push!
 emacs README.org --batch -f org-html-export-to-html --kill
 mkdir -p build
-mv -f README.html build/
-rsync -xva ./res ./build/README.html pu:/var/www/unintuitive.org/HoEaHCC/
+rsync -xva ./res ./README.html pu:/var/www/unintuitive.org/HoEaHCC/
+echo -e "\n\n\nRefresh your browsers!\n\n\n
+mv -f ./README.html build/
+git push
