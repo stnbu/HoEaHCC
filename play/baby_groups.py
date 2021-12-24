@@ -26,7 +26,6 @@ class GroupElement:
         return GroupElement(mapping)
 
     def map(self, symbol):
-        #import ipdb; ipdb.set_trace()
         for _from, _to in self.mapping:
             if _from == symbol:
                 return _to

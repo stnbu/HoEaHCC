@@ -117,3 +117,4 @@ $(G,∗)≅(H,⊙)$
 - https://trustica.cz/2018/04/26/elliptic-curves-prime-order-curves/ [if this isn't an outlier from trustica ecc blogs, remove it]
 - https://www.youtube.com/watch?v=mFVKuFZ29Fc <-- Gobsmakaroo!
 - [[https://www.youtube.com/watch?v=RnqwFpyqJFw&list=PL8yHsr3EFj51pjBvvCPipgAT3SYpIiIsJ][Group Theory 101]]
+- Let's circle back to [[https://mech.fsv.cvut.cz/~stransky/software/latexexpr/doc/][this]] sometime soon. No github repo, no setup.py, requires mucking about.
