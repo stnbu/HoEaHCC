@@ -89,6 +89,8 @@ The two groups $(G,∗)$ and $(H,⊙)$ are isomorphic if there exists an isomorp
 
 $(G,∗)≅(H,⊙)$
 
+tl;dr -- An isomorphism is a homomorphism "in both directions" (yes?)
+
 ** Short Definitions
 
 - decision problem :: is statement about input true or false. "Is this number prime?"
