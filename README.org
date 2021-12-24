@@ -75,15 +75,15 @@ In the book's notation we want a $k$ such that $[k]P = Q$, where $P$ is the gene
 
 *** Homomorphism
 
-Given two groups, $(G, ∗)$ and $(H, \cdot)$, a group homomorphism from $(G, ∗)$ to $(H, \cdot)$ is a function $h : G → H$ such that for all $u$ and $v$ in $G$ it holds that
+Given two groups, $(G, ∗)$ and $(H, \odot)$, a group homomorphism from $(G, ∗)$ to $(H, \odot)$ is a function $h : G → H$ such that for all $u$ and $v$ in $G$ it holds that
 
-$h(u*v)=h(u)\cdot h(v)$
+$h(u*v)=h(u) \odot h(v)$
 
 *** Isomorphism
 
-Given two groups $(G,*)$ and $(H,⊙)$, a group isomorphism from $(G,∗)$ to $(H,⊙)$ is a bijective group homomorphism from $G$ to $H$. Spelled out, this means that a group isomorphism is a bijective function $f:G\to H$ such that for all $u$ and $v$ in $G$ it holds that
+Given two groups $(G,*)$ and $(H,\odot)$, a group isomorphism from $(G,∗)$ to $(H,\odot)$ is a bijective group homomorphism from $G$ to $H$. Spelled out, this means that a group isomorphism is a bijective function $f:G\to H$ such that for all $u$ and $v$ in $G$ it holds that
 
-$f(u*v)=f(u)\odot f(v)$
+$f(u*v)=f(u) \odot f(v)$
 
 The two groups $(G,∗)$ and $(H,⊙)$ are isomorphic if there exists an isomorphism from one to the other. This is written:
 
