@@ -133,4 +133,4 @@ tl;dr -- An isomorphism is a homomorphism "in both directions" (yes?)
 - [[https://www.youtube.com/watch?v=RnqwFpyqJFw&list=PL8yHsr3EFj51pjBvvCPipgAT3SYpIiIsJ][Group Theory 101]]
 - Let's circle back to [[https://mech.fsv.cvut.cz/~stransky/software/latexexpr/doc/][this]] sometime soon. No github repo, no setup.py, requires mucking about.
 - [[https://faculty.atu.edu/mfinan/4033/absalg20.pdf][Cayley’s Theorem]]
-  
+- If you think symmetric groups are "simple" -- https://people.bath.ac.uk/masgcs/courses.bho/cycles.pdf
