@@ -3,6 +3,14 @@
 
 * Assumes an orderable set
 * Has weird stuff at the bottom regarding list [in]equality.
+
+TODO:
+* Don't assume orderability. Think in terms of "set equality".
+* A test where you drop in and start following the mapping other-than the
+  beginning of the beginning of the array. Example:
+  m = [[1,2,3,4][5, 6]] ... call `to_mapping` in a way where you start
+  from, say `m[0][2] == 3`. You should end up with the same result.
+  Same for `to_cycles`.
 """
 
 def get_one_cycle(mapping, symbol, cycle):
