@@ -17,16 +17,11 @@ class GeneratedSubgroup:
 if __name__ == '__main__':
 
     # (Z, +) is a group
-    generator = 3
-    g = GeneratedSubgroup(generator, generator.__add__)
-    a5 = g[5]
-    a7 = g[7]
-    assert a5 + a7 == g[5] + g[7]
-
-    # (Z, *) is a group
     generator = 42
-    g = GeneratedSubgroup(generator, generator.__mul__)
-    a2 = g[2]
-    a4 = g[4]
-    assert a2 * a4 == g[2] * g[4]
+    g = GeneratedSubgroup(generator, generator.__add__)
+    assert g[5 + 7] == g[5] + g[7]
 
+    # (Z, *) is not a group, `3**(2 * 4) != (3**2) * (3**4)`
+    generator = 3
+    g = GeneratedSubgroup(generator, generator.__mul__)
+    assert g[2 * 4] != g[2] * g[4]
