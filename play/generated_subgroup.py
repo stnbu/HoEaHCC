@@ -10,7 +10,7 @@ class GeneratedSubgroup:
 
     def __getitem__(self, n):
         result = self.generator
-        for i in range(0, n - 1):
+        for _ in range(0, n - 1):
             result = self.composer(result)
         return result
 
