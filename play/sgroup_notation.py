@@ -2,7 +2,7 @@
 """Symmetric Group notation-related utilities
 
 * Assumes an orderable set
-* Has weird stuff at the bottom regarding list equality.
+* Has weird stuff at the bottom regarding list [in]equality.
 """
 
 def get_one_cycle(mapping, symbol, cycle):
@@ -52,6 +52,10 @@ if __name__ == '__main__':
 
     from collections import namedtuple
 
+    def assert_lists_equal(*lists):
+        'No clue! 2D lists of integers -- equal but not really.'
+        return eval("%s==%s" % lists)
+
     MappingTest = namedtuple('MappingTest', ['cauchy', 'cycles'])
     mapping1 = MappingTest(
         cauchy=[[1, 3],
@@ -68,7 +72,7 @@ if __name__ == '__main__':
                 [5, 1]],
         cycles=[[1, 2, 5], [3, 4]])
 
-    assert to_cycles(mapping1.cauchy) == mapping1.cycles
-    assert to_cycles(mapping2.cauchy) == mapping2.cycles
-    assert eval("%s==%s" % (to_mapping(mapping1.cycles), mapping1.cauchy))
-    assert eval("%s==%s" % (to_mapping(mapping2.cycles), mapping2.cauchy))
+    for test_case in [mapping1, mapping2]:
+        assert_lists_equal(to_cycles(test_case.cauchy), test_case.cycles)
+        assert_lists_equal(to_mapping(test_case.cycles), test_case.cauchy)
+        assert_lists_equal(to_cycles(to_mapping(test_case.cycles)), test_case.cycles)
