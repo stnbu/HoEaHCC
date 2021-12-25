@@ -25,18 +25,26 @@ def to_cycles(mapping):
         if next_symbol is None:
             break
         cycles.append(get_one_cycle(mapping, next_symbol, []))
-    return [cycle for cycle in cycles if len(cycle) > 1]
+    return cycles #  not `[cycle for cycle in cycles if len(cycle) > 1]`
 
 if __name__ == '__main__':
-    m1 = [(1, 3),
-         (2, 2),
-         (3, 1),
-         (4, 5),
-         (5, 4)]
-    m2 = [(1, 2),
-         (2, 5),
-         (3, 4),
-         (4, 3),
-         (5, 1)]
-    print(to_cycles(m1))
-    print(to_cycles(m2))
+
+    from collections import namedtuple
+
+    MappingTest = namedtuple('MappingTest', ['cauchy', 'cycles'])
+    mapping1 = MappingTest(
+        cauchy=[(1, 3),
+                (2, 2),
+                (3, 1),
+                (4, 5),
+                (5, 4)],
+        cycles=[[1, 3], [2], [4, 5]])
+    mapping2 = MappingTest(
+        cauchy=[(1, 2),
+                (2, 5),
+                (3, 4),
+                (4, 3),
+                (5, 1)],
+        cycles=[[1, 2, 5], [3, 4]])
+    assert to_cycles(mapping1.cauchy) == mapping1.cycles
+    assert to_cycles(mapping2.cauchy) == mapping2.cycles
