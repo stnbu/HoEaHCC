@@ -70,7 +70,5 @@ if __name__ == '__main__':
 
     assert to_cycles(mapping1.cauchy) == mapping1.cycles
     assert to_cycles(mapping2.cauchy) == mapping2.cycles
-    result = eval("%s==%s" % (to_mapping(mapping1.cycles), mapping1.cauchy))
-    assert result
-    result = eval("%s==%s" % (to_mapping(mapping2.cycles), mapping2.cauchy))
-    assert result
+    assert eval("%s==%s" % (to_mapping(mapping1.cycles), mapping1.cauchy))
+    assert eval("%s==%s" % (to_mapping(mapping2.cycles), mapping2.cauchy))
