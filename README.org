@@ -117,7 +117,11 @@ tl;dr -- An isomorphism is a homomorphism "in both directions" (yes?)
 
         $\{ x \in S : x \sim a \}$
 
+	[Isn't this incomplete? $\sim$ acting on $a,b \in S$ must also satisfy the axioms to be an /equivalence class/. Otherwise, it is a /setoid/.]
+
 - conjugacy and equivalence :: elements $a$ and $b$ of a group are conjugate if there is an element $g$ in the group such that $b=g^{-1}ag$. This is an equivalence relation whose equivalence classes are called conjugacy classes.
+
+- setoid :: A set together with its binary relation operator ("is $a$ /related/ to $b$ by our rule? yes/no$).
 
 * What The Hell Is This
 
