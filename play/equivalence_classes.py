@@ -1,8 +1,15 @@
 #!/usr/bin/env python3
 
 class IntOrderedPair:
-    """The "orderd pair" example given here:
+    """The "ordered pair" example given here:
     https://en.wikipedia.org/w/index.php?title=Equivalence_class&oldid=1060992683
+
+    Spoiler: Any two "equivalent" instances are two "equal" fractions. This is why `(a, b)`
+
+    1. Is an _ordered_ pair
+    1. Cannot have `b == 0`
+
+    This is equivalent to saying `a/b` is "equivalent" to `x/y` iff `(a/b) / (x/y) == 1`
     """
 
     def __init__(self, a, b):
