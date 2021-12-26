@@ -113,7 +113,7 @@ tl;dr -- An isomorphism is a homomorphism "in both directions" (yes?)
 
 - $\langle x \rangle$ :: the set $\{x^n | n ∈ \mathbb{Z}\}$
 
-- equivalence class :: Given a set $S$ and an equivalence relation $\sim$ on $S$, the equivalence class of an element $a$ in $S$, denoted by $[a]$ is the set
+- equivalence class  :: Given a set $S$ and an equivalence relation $\sim$ on $S$, the equivalence class of an element $a$ in $S$, denoted by $[a]$ is the set
 
         $\{ x \in S : x \sim a \}$
 
