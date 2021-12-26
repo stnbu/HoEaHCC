@@ -98,7 +98,10 @@ tl;dr -- An isomorphism is a homomorphism "in both directions" (yes?)
 - associative :: $(xy)z = x(yz)$
 - commutative :: $xy = yx$
 - transitive :: $x = y$ and $y = z$ $\implies x = z$
+
 - image :: For a subset $R$ of $S$ the /image/ of $f(R)$ is the set of all $f(r)$ where $r ∈ R$.
+  Comprehensible example time: If $S = /mathbb{Z}$ and $R = /mathbb{Z}_2$ and $f(n) = 2n$ then the /image/ of $f(R) = /mathbb{Z}_4$ ... yes?
+
 - $\mathbb{Z}/n\mathbb{Z}$ ::
   As best "we" can tell: This is "integers that are multiples of $n$". If $n$ is five, then it means $[0, 5, 10, ...]$
   _Or is it_ "the cyclic group of order $n$"? aka $[0, 1, 2, ...n-1]$ ...?
