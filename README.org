@@ -136,7 +136,7 @@ tl;dr -- An isomorphism is a homomorphism "in both directions" (yes?)
 + "Given a set $S$, a composition law $×$ of $S$ into itself is a mapping from the Cartesian product $S × S$ to $S$. Common notations for the image of $(x, y)$ under this mapping are $x × y$, $x.y$ or simply $xy$. When the law is commutative, i.e., when the images of $(x, y)$ and $(y, x)$ under the composition law are the same for all $x, y ∈ S$, it is customary to denote it by $+$." --> My understanding of this is the "image of $x × y$" is the /single element/ resulting from the composition of $x$ and $y$ under $×$. Yes? An image can be one element. Is this what is meant? Why all the fancy "image" talk?
 + I would like a nice mnemonic for remembering the convention: $×$ is used for "just groups" and $+$ is used for abelian groups. Maybe: matrix multiplication is /not/ abelian (commutative) but matrix addition /is/ commutative.
 + "Let $G$ be a group. An element $x ∈ G$ is of finite order if $\langle x \rangle$ is finite. In this case, the order of x is $|\langle x \rangle|$, that is, the smallest positive integer $n$ such that $xn = e$. Otherwise, $x$ is of infinite order." --> Idle wonderment: 1) why not "iff"? 2) can a single group contain elements of both finite and infinite order? (seems like "no" and a meaningful exercise proof).
-+ These (axioms for equivalence relation) are suspsiciously analagous to the group axioms:
++ These (axioms for equivalence relation) are suspiciously analogous to the group axioms:
   - $a \sim a$ for all $a \in X$ (reflexivity)
   - $a \sim b$ implies $b \sim a$ for all $a,b \in X$ (symmetry)
   - if $a \sim b$ and $b \sim c$ then $a \sim c$ for all $a,b,c \in X$ (transitivity)
