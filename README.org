@@ -110,18 +110,19 @@ tl;dr -- An isomorphism is a homomorphism "in both directions" (yes?)
 
 * What The Hell Is This
 
-- "One can formulate a computation problem from a decision problem." Really?
-- "On the other hand for elliptic curves no subexponential algorithm is known for the DLP" --> Is this the definition of an "elliptic curve"? or a property?
-- "Jacobians of curves of small genus"
-- "abstract cohomology theories and classical results from explicit class field theory are used for efficient implementations to count points on hyperelliptic curves" --> /only/ hyperelliptic curves?
-- Are there "points outside of a (EC) group that lead you /into/ a group?" -- the more I learn the more I wonder if the question makes sense. $[k]P$ is in the group /by definition/. So in that way there is no "starting outside the group". But what about starting with a different generator? can $[j]Q = [k]K$ for some $[j]Q$ that is outside of the group? err, grumble.
-- What's with this affine/projection stuff on P271?
-- "Common notations for the image of (x, y) under this mapping are x × y..." --> I am thrown by "image". That's not the same as "members x and y" wat? image? [We now think we know what "image" means and define it above 👆]
-- "The **group G is said to be** commutative or **abelian**, if the composition law is commutative. As previously mentioned, **the law is often denoted by + or ⊕ and the unit element by 0 in this case.**" --> wwhaaat? -- Are + and ⊕ interchangeable and /have nothing to do with/ commutativity? Is 0 the unit element /in the case/ of abelian groups? (only? yes but also?) -- questions about notation.
-- "Definition 2.6 Let $G$ be a group. An element $x ∈ G$ is of finite order if $\langle x \rangle$ is finite." --> Can there be infinite-order groups that have $x$ of finite order? And we are saying the /element/ is of finite order, yes?
-- "The group $S_n$ is solvable if and only if $n <= 4$. " NNeat!
-- "This is an essential part of the proof of the Abel–Ruffini theorem that shows that for every $n > 4$ there are polynomials of degree $n$ which are not solvable by radicals, that is, the solutions cannot be expressed by performing a finite number of operations of addition, subtraction, multiplication, division and root extraction on the polynomial's coefficients." --> sure sounds important
-- ${\displaystyle g=(1\ 2\ 5)(3\ 4)={\begin{pmatrix}1&2&3&4&5\\2&5&4&3&1\end{pmatrix}}.}$ --> I understand [[https://en.wikipedia.org/wiki/Symmetric_group#Multiplication][Cauchy's two-line notation]] but I do not understand e.g. $(1\ 2\ 5)(3\ 4)$. What dat?
++ "One can formulate a computation problem from a decision problem." Really?
++ "On the other hand for elliptic curves no subexponential algorithm is known for the DLP" --> Is this the definition of an "elliptic curve"? or a property?
++ "Jacobians of curves of small genus"
++ "abstract cohomology theories and classical results from explicit class field theory are used for efficient implementations to count points on hyperelliptic curves" --> /only/ hyperelliptic curves?
++ Are there "points outside of a (EC) group that lead you /into/ a group?" -- the more I learn the more I wonder if the question makes sense. $[k]P$ is in the group /by definition/. So in that way there is no "starting outside the group". But what about starting with a different generator? can $[j]Q = [k]K$ for some $[j]Q$ that is outside of the group? err, grumble.
++ What's with this affine/projection stuff on P271?
++ "Common notations for the image of (x, y) under this mapping are x × y..." --> I am thrown by "image". That's not the same as "members x and y" wat? image? [We now think we know what "image" means and define it above 👆]
++ "The **group G is said to be** commutative or **abelian**, if the composition law is commutative. As previously mentioned, **the law is often denoted by + or ⊕ and the unit element by 0 in this case.**" --> wwhaaat? -- Are + and ⊕ interchangeable and /have nothing to do with/ commutativity? Is 0 the unit element /in the case/ of abelian groups? (only? yes but also?) -- questions about notation.
++ "Definition 2.6 Let $G$ be a group. An element $x ∈ G$ is of finite order if $\langle x \rangle$ is finite." --> Can there be infinite-order groups that have $x$ of finite order? And we are saying the /element/ is of finite order, yes?
++ "The group $S_n$ is solvable if and only if $n <= 4$. " NNeat!
++ "This is an essential part of the proof of the Abel–Ruffini theorem that shows that for every $n > 4$ there are polynomials of degree $n$ which are not solvable by radicals, that is, the solutions cannot be expressed by performing a finite number of operations of addition, subtraction, multiplication, division and root extraction on the polynomial's coefficients." --> sure sounds important
++ ${\displaystyle g=(1\ 2\ 5)(3\ 4)={\begin{pmatrix}1&2&3&4&5\\2&5&4&3&1\end{pmatrix}}.}$ --> I understand [[https://en.wikipedia.org/wiki/Symmetric_group#Multiplication][Cauchy's two-line notation]] but I do not understand e.g. $(1\ 2\ 5)(3\ 4)$. What dat?
++ "Given a set $S$, a composition law $×$ of $S$ into itself is a mapping from the Cartesian product $S × S$ to $S$. Common notations for the image of $(x, y)$ under this mapping are $x × y$, $x.y$ or simply $xy$. When the law is commutative, i.e., when the images of $(x, y)$ and $(y, x)$ under the composition law are the same for all $x, y ∈ S$, it is customary to denote it by $+$." --> My understanding of this is the "image of $x × y$" is the /single element/ resulting from the composition of $x$ and $y$ under $×$. Yes? An image can be one element. Is this what is meant? Why all the fancy "image" talk?
 
 * Some resources; no promises
 
