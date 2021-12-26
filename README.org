@@ -115,7 +115,7 @@ tl;dr -- An isomorphism is a homomorphism "in both directions" (yes?)
 
 - xx :: Given a set $S$ and an equivalence relation $\sim$ on $S$, the equivalence class of an element $a$ in $S$, denoted by $[a]$ is the set
 
-$\{ x \in S : x \sim a \}$
+        $\{ x \in S : x \sim a \}$
 
 - conjugacy and equivalence :: elements $a$ and $b$ of a group are conjugate if there is an element $g$ in the group such that $b=g^{-1}ag$. This is an equivalence relation whose equivalence classes are called conjugacy classes.
 
