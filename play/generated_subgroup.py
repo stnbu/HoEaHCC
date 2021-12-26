@@ -14,7 +14,14 @@ class GeneratedSubgroup:
             result = self.composer(result)
         return result
 
+    def __eq__(self, other):
+        "I feel we could do something fun here."
+
 if __name__ == '__main__':
+
+    g = GeneratedSubgroup(5, (5).__add__)
+    the_gen = g[0]
+    import ipdb ; ipdb.set_trace()
 
     # (Z, +) is a group
     generator = 42
