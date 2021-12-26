@@ -38,6 +38,17 @@ class IntOrderedPair:
     def __str__(self):
         return "(%d, %d)" % (self.a, self.b)
 
+
+class TheRealsUnderMul:
+
+    def __init__(self, r):
+        assert isinstance(r, float)
+        self.r = r
+
+    def __mul__(self, other):
+        return TheRealsUnderMul(self.r * other.r)
+        
+
 if __name__ == '__main__':
 
     equivalents = [
