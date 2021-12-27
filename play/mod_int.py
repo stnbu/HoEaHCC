@@ -2,32 +2,39 @@
 
 sub_n = dict(zip(list(range(0, 10)), "₀₁₂₃₄₅₆₇₈₉"))
 
-class Z_:
+def get_modulo_class(modulo):
 
-    modulo = 8
+    class Z_:
 
-    def __init__(self, n):
-        assert isinstance(n, int)
-        self.n = n % self.modulo
+        def __init__(self, n):
+            assert isinstance(n, int)
+            self.n = n % modulo
 
-    def __add__(self, other):
-        return Z_((self.n + other.n) % self.modulo)
+        def __add__(self, other):
+            return Z_((self.n + other.n) % modulo)
 
-    def __str__(self):
-        return "Z%s(%d)" % (sub_n[self.modulo], self.n)
+        def __mul__(self, other):
+            return Z_((self.n * other.n) % modulo)
 
-    __repr__ = __str__
+        def __str__(self):
+            return "Z%s(%d)" % (sub_n[modulo], self.n)
+
+        __repr__ = __str__
+
+    return Z_
 
 if __name__ == '__main__':
-    x = Z_(3)
-    y = Z_(5)
+
+    Z_8 = get_modulo_class(8)
+    x = Z_8(3)
+    y = Z_8(5)
 
 
     G = []
     for n in range(0, 8):
-        G.append(Z_(n))
+        G.append(Z_8(n))
 
-    H = [Z_(0), Z_(4)]
+    H = [Z_8(0), Z_8(4)]
     left_cosets = {}
     for h in H:
         for g in G:
