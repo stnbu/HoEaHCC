@@ -35,6 +35,10 @@ Let $G$ be a group. A subgroup $H$ of $G$ is a subset of $G$ containing the unit
 
 Let $G$ be a finite group and $H$ be a subgroup of $G$. Then the order of $H$ divides the order of $G$. As a consequence, the order of every element [in $H$?] also divides the order of $G$.
 
+$|G| = |H| \cdot (G:H)$
+
+The order of $G$ equals the order of $H$ times the number of (left) cosets of $H$.
+
 **** Abelian Group
 
  - Group with commutativity.
