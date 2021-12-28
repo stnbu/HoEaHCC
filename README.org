@@ -149,6 +149,7 @@ tl;dr -- An isomorphism is a homomorphism "in both directions" (yes?)
   - $a \sim b$ implies $b \sim a$ for all $a,b \in X$ (symmetry)
   - if $a \sim b$ and $b \sim c$ then $a \sim c$ for all $a,b,c \in X$ (transitivity)
 + A ring "has addition and multiplication" and possibly they "behave as the corresponding operations on rational and real numbers" -- In "regular math", the multiplication operator is defined /in terms of/ the addition operator: $n . X == X + X + ... + X$  Is this generally true for fields? In "regular math" the aforementioned $n$ is /part of the same field/. If you have field elements $a$ and $b$, does it make sense to say $a . b$ is just $b$ added to itsel $a$ times? What does "$a$ times" mean when $a$ is some absract /thing/. What if $a$ is a matrix? Can one add $b$ to itself "$[(3, 2), (8, -7)]$ times" ...!!?
++ Can there be a /left/ identity, i.e. an $e$ where $ae = a != ea$ What if each element has a left identity and a right identity but no "usual" identity?
 
 ** Yes but why is $n^0=1$?
 
