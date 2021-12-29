@@ -156,15 +156,15 @@ tl;dr -- An isomorphism is a homomorphism "in both directions" (yes?)
 
 *** Chromogons
 
-- $P_chromogons = \{p | p \in The set of all uniquely colored polygons on the real plane\}$. This can be thought of as the power set of all /ordered/ points ${r_1, r_2, r_3, ... r_n} | r \in \{\mathbb{R} X \mathbb{R}\}, n \in \mathbb{Z}$, paired with some fill-color that we can just consider an $n+1^th$ term, since "all possible colors" (infinite something set energy levels something spectral something quarks.... /the set of all colors/!) is [[https://en.wikipedia.org/wiki/Surjective_function][injective non-surjective]] to $\mathbb{R} X \mathbb{R}$.
+- $P_(chromogons) = \{p | p \in The set of all uniquely colored polygons on the real plane\}$. This can be thought of as the power set of all /ordered/ points ${r_1, r_2, r_3, ... r_n} | r \in \{\mathbb{R} X \mathbb{R}\}, n \in \mathbb{Z}$, paired with some fill-color that we can just consider an $n+1^th$ term, since "all possible colors" (infinite something set energy levels something spectral something quarks.... /the set of all colors/!) is [[https://en.wikipedia.org/wiki/Surjective_function][injective non-surjective]] to $\mathbb{R} X \mathbb{R}$.
 
 We can use the algorithmic enclosure and fill rules in wide use (draw a line between each coordinate pair in turn, if the last term is not equal to the first term, wrap around...fill the polygon. It should not matter so long as the same sequence of reals gives you the same sequence of colored polygons.
 
 Now, complication, there needs to be a way to "algorithmically" color these. We could say: after drawing the boundary using the above rules, pick any two points on the polygon boundary (edge) and draw any line segment you want between the two, by, again, connecting all the real coordinate pairs (example, draw a line between the opposing corners of a rectangle (making two triangles), color them with some ...other real numbers corresponding to colors. By ...some rule.
 
-The "composition rule" $Stack(P_chromogons X P_chromogons) -> P_chromogons$ is as follows:
+The "composition rule" $Stack(P_(chromogons) X P_(chromogons)) -> P_(chromogons)$ is as follows:
 
-Given $p, q \in P_chromogons$ you create the output $r \in P_chromogons$ by stacking them any way you like$^*$ ($_*$ uh oh).
+Given $p, q \in P_(chromogons)$ you create the output $r \in P_(chromogons)$ by stacking them any way you like$^*$ ($_*$ uh oh).
 
 This is obviously an infinite set. And there's a whole lot of slop in this jib. HOWEVER, the thing that occur to me:
 
