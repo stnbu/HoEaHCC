@@ -152,6 +152,27 @@ tl;dr -- An isomorphism is a homomorphism "in both directions" (yes?)
 + Can there be a /left/ identity, i.e. an $e$ where $ae = a != ea$ What if each element has a left identity and a right identity but no "usual" identity?
 + Similarly, can an element $a$ have a left inverse and right inverse but no "usual" inverse?
 
+* Possibly even "ideas"
+
+*** Chromogons
+
+- $P_chromogons = \{p | p \in The set of all uniquely colored polygons on the real plane\}$. This can be thought of as the power set of all /ordered/ points ${r_1, r_2, r_3, ... r_n} | r \in \{\mathbb{R} X \mathbb{R}\}, n \in \mathbb{Z}$, paired with some fill-color that we can just consider an $n+1^th$ term, since "all possible colors" (infinite something set energy levels something spectral something quarks.... /the set of all colors/!) is [[https://en.wikipedia.org/wiki/Surjective_function][injective non-surjective]] to $\mathbb{R} X \mathbb{R}$.
+
+We can use the algorithmic enclosure and fill rules in wide use (draw a line between each coordinate pair in turn, if the last term is not equal to the first term, wrap around...fill the polygon. It should not matter so long as the same sequence of reals gives you the same sequence of colored polygons.
+
+Now, complication, there needs to be a way to "algorithmically" color these. We could say: after drawing the boundary using the above rules, pick any two points on the polygon boundary (edge) and draw any line segment you want between the two, by, again, connecting all the real coordinate pairs (example, draw a line between the opposing corners of a rectangle (making two triangles), color them with some ...other real numbers corresponding to colors. By ...some rule.
+
+The "composition rule" $Stack(P_chromogons X P_chromogons) -> P_chromogons$ is as follows:
+
+Given $p, q \in P_chromogons$ you create the output $r \in P_chromogons$ by stacking them any way you like$^*$ ($_*$ uh oh).
+
+This is obviously an infinite set. And there's a whole lot of slop in this jib. HOWEVER, the thing that occur to me:
+
+- This is a way of describing how you create an image on a computer screen. Kinda.
+- The problem of "do not pointlessly draw things that are behind other things" is a whole field in itself, iinm.
+- The operation is /non-commutative/. And we care a lot about that because see above.
+- If you can describe any drawing you like with the above and can leverage crazy new math research... profit?
+
 ** Yes but why is $n^0=1$?
 
 + Take the infinite group $G = (\mathbb{Z}, +)$, consider its generated subgroup $H = \{ x^n | n \in \mathbb{Z}  \}$ (for any $n$ you like, say $2$). $H$ /does not contain the identity/. Right? Yes, we know that the identity is $0$. Suppose $\mathbb{Z}_?$ is an infinite group with the same (?) properties as $\mathbb{Z}$ and we choose $2_?$ as our generator. If $n=1$, we get the $2_?$; we apply the composition rule to the generator ($2_?$) /itself/ zero times ($n=1$ but we do zero operations/compositions: we just get $2_?$ back). If $n=2$ we get $4_?$. We know how to compose an element with nothing (we get the element itself). We know how to compose an element with itself $n>1$ times. How do we compose $2_?$ /zero times/ and get the identity: $0_?$ *without* looking at the math book and reading that "$n^0 = 1$ it is known". Put another way, how would I change [[https://github.com/stnbu/HoEaHCC/blob/1d12f97dfec9b35ab647d393fbff286c94a97bf4/play/generated_subgroup.py#L11][this python function]] so that "g[0] != g[1]" /without losing generalization/? Maybe there really is the idea of "plus-like" and "mul-like" operators outside of "regular numbers"
