@@ -152,6 +152,10 @@ tl;dr -- An isomorphism is a homomorphism "in both directions" (yes?)
 + Can there be a /left/ identity, i.e. an $e$ where $ae = a != ea$ What if each element has a left identity and a right identity but no "usual" identity?
 + Similarly, can an element $a$ have a left inverse and right inverse but no "usual" inverse?
 
+** Yes but why is $n^0=1$?
+
++ Take the infinite group $G = (\mathbb{Z}, +)$, consider its generated subgroup $H = \{ x^n | n \in \mathbb{Z}  \}$ (for any $n$ you like, say $2$). $H$ /does not contain the identity/. Right? Yes, we know that the identity is $0$. Suppose $\mathbb{Z}_?$ is an infinite group with the same (?) properties as $\mathbb{Z}$ and we choose $2_?$ as our generator. If $n=1$, we get the $2_?$; we apply the composition rule to the generator ($2_?$) /itself/ zero times ($n=1$ but we do zero operations/compositions: we just get $2_?$ back). If $n=2$ we get $4_?$. We know how to compose an element with nothing (we get the element itself). We know how to compose an element with itself $n>1$ times. How do we compose $2_?$ /zero times/ and get the identity: $0_?$ *without* looking at the math book and reading that "$n^0 = 1$ it is known". Put another way, how would I change [[https://github.com/stnbu/HoEaHCC/blob/1d12f97dfec9b35ab647d393fbff286c94a97bf4/play/generated_subgroup.py#L11][this python function]] so that "g[0] != g[1]" /without losing generalization/? Maybe there really is the idea of "plus-like" and "mul-like" operators outside of "regular numbers".
+
 * Possibly even "ideas"
 
 *** Chromogons
@@ -172,10 +176,6 @@ This is obviously an infinite set. And there's a whole lot of slop in this jib. 
 - The problem of "do not pointlessly draw things that are behind other things" is a whole field in itself, iinm.
 - The operation is /non-commutative/. And we care a lot about that because see above.
 - If you can describe any drawing you like with the above and can leverage crazy new math research... profit?
-
-** Yes but why is $n^0=1$?
-
-+ Take the infinite group $G = (\mathbb{Z}, +)$, consider its generated subgroup $H = \{ x^n | n \in \mathbb{Z}  \}$ (for any $n$ you like, say $2$). $H$ /does not contain the identity/. Right? Yes, we know that the identity is $0$. Suppose $\mathbb{Z}_?$ is an infinite group with the same (?) properties as $\mathbb{Z}$ and we choose $2_?$ as our generator. If $n=1$, we get the $2_?$; we apply the composition rule to the generator ($2_?$) /itself/ zero times ($n=1$ but we do zero operations/compositions: we just get $2_?$ back). If $n=2$ we get $4_?$. We know how to compose an element with nothing (we get the element itself). We know how to compose an element with itself $n>1$ times. How do we compose $2_?$ /zero times/ and get the identity: $0_?$ *without* looking at the math book and reading that "$n^0 = 1$ it is known". Put another way, how would I change [[https://github.com/stnbu/HoEaHCC/blob/1d12f97dfec9b35ab647d393fbff286c94a97bf4/play/generated_subgroup.py#L11][this python function]] so that "g[0] != g[1]" /without losing generalization/? Maybe there really is the idea of "plus-like" and "mul-like" operators outside of "regular numbers"
 
 * Some resources; no promises
 
