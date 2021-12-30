@@ -160,7 +160,7 @@ tl;dr -- An isomorphism is a homomorphism "in both directions" (yes?)
 
 ** Starry-eyed neophite gee-wiz questions and observations about EC's
 
-*** What about rational EC points $P, Q$ on a line with rational slope with irrational 3$^rd$ intersecting point $R$?
+*** What about rational EC points $P, Q$ on a line with rational slope with irrational 3$^(rd)$ intersecting point $R$?
 
 If a straight line must intersect a 3rd order polynomial in three places, and if choosing the first to two points as rationals, then the third point /must/ be irrational (is this right? language sloppy?). It would be "interesting" to construct some of these irrationals and compare and contrast with some well-known irrationals that do not have a (finite) "algebraic contruction", $e$, $\pi$ and friends. They can be expressed in terms of /one another/ (Euler's identity).
 
