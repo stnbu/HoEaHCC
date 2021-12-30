@@ -172,7 +172,7 @@ Hmm? Is there such a thing?
 
 It is known: Interesections (solutions) $P, Q, R$ each have two coordinates; that's six. The line intesecting these three points can be expressed as
 
- 1. Any two coordinates it intersects. Add four: $(x1, y1)$ and $(x2, y2)$
+ 1. Any two coordinates it intersects. Add four: $(x_1, y_1)$ and $(x_2, y_2)$
  1. The slope of the line and the constant representing its "height". Add two.
 
 But the two are above are equivalent (both are rational or both are irrational. right?)
