@@ -187,7 +187,7 @@ We can use the algorithmic enclosure and fill rules in wide use (draw a line bet
 
 Now, complication, there needs to be a way to "algorithmically" color these. We could say: after drawing the boundary using the above rules, pick any two points on the polygon boundary (edge) and draw any line segment you want between the two, by, again, connecting all the real coordinate pairs (example, draw a line between the opposing corners of a rectangle (making two triangles), color them with some ...other real numbers corresponding to colors. By ...some rule.
 
-The "composition rule" $Stack\(P_{chromogons} X P_{chromogons}\) -> P_{chromogons}$ is as follows:
+The "composition rule" $Stack(P_{chromogons} X P_{chromogons}) -> P_{chromogons}$ is as follows:
 
 Given $p, q \in P_{chromogons}$ you create the output $r \in P_{chromogons}$ by stacking them any way you like$^*$ ($_*$ uh oh).
 
