@@ -175,7 +175,7 @@ It is known: Interesections (solutions) $P, Q, R$ each have two coordinates; tha
  1. Any two coordinates it intersects. Add four: $(x_1, y_1)$ and $(x_2, y_2)$
  1. The slope of the line and the constant representing its "height". Add two.
 
-But the two are above are equivalent (both are rational or both are irrational. right?)
+But the above two are equivalent (both are rational or both are irrational. right?)
 
 Explore: random choices for "let these be rational and these be irrational" for each of the above six.
 
