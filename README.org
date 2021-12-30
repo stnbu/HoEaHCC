@@ -158,6 +158,27 @@ tl;dr -- An isomorphism is a homomorphism "in both directions" (yes?)
 
 * Possibly even "ideas"
 
+** Starry-eyed neophite gee-wiz questions and observations about EC's
+
+*** What about rational EC points $P, Q$ on a line with rational slope with irrational 3$^rd$ intersecting point $R$?
+
+If a straight line must intersect a 3rd order polynomial in three places, and if choosing the first to two points as rationals, then the third point /must/ be irrational (is this right? language sloppy?). It would be "interesting" to construct some of these irrationals and compare and contrast with some well-known irrationals that do not have a (finite) "algebraic contruction", $e$, $\pi$ and friends. They can be expressed in terms of /one another/ (Euler's identity).
+
+*** What about rational EC points $P, Q, R$ on a line with /irrational/?
+
+Hmm? Is there such a thing?
+
+*** There are six things!
+
+It is known: Interesections (solutions) $P, Q, R$ each have two coordinates; that's six. The line intesecting these three points can be expressed as
+
+ 1. Any two coordinates it intersects. Add four: $(x1, y1)$ and $(x2, y2)$
+ 1. The slope of the line and the constant representing its "height". Add two.
+
+But the two are above are equivalent (both are rational or both are irrational. right?)
+
+Explore: random choices for "let these be rational and these be irrational" for each of the above six.
+
 *** Chromogons
 
 - $P_(chromogons) = \{p | p \in The set of all uniquely colored polygons on the real plane\}$. This can be thought of as the power set of all /ordered/ points ${r_1, r_2, r_3, ... r_n} | r \in \{\mathbb{R} X \mathbb{R}\}, n \in \mathbb{Z}$, paired with some fill-color that we can just consider an $n+1^th$ term, since "all possible colors" (infinite something set energy levels something spectral something quarks.... /the set of all colors/!) is [[https://en.wikipedia.org/wiki/Surjective_function][injective non-surjective]] to $\mathbb{R} X \mathbb{R}$.
